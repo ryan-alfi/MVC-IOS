@@ -14,6 +14,8 @@
 		88DCCB431E2F53540011449F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DCCB411E2F53540011449F /* LaunchScreen.storyboard */; };
 		88DCCB4E1E2F53550011449F /* MultipleMVCAndSegueDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCCB4D1E2F53550011449F /* MultipleMVCAndSegueDemoTests.swift */; };
 		88DCCB591E2F53550011449F /* MultipleMVCAndSegueDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCCB581E2F53550011449F /* MultipleMVCAndSegueDemoUITests.swift */; };
+		88DCCB671E2F5C990011449F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCCB661E2F5C990011449F /* CollectionViewController.swift */; };
+		88DCCB691E2F5FFA0011449F /* PresentModallyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCCB681E2F5FFA0011449F /* PresentModallyController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		88DCCB541E2F53550011449F /* MultipleMVCAndSegueDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleMVCAndSegueDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DCCB581E2F53550011449F /* MultipleMVCAndSegueDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleMVCAndSegueDemoUITests.swift; sourceTree = "<group>"; };
 		88DCCB5A1E2F53550011449F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88DCCB661E2F5C990011449F /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		88DCCB681E2F5FFA0011449F /* PresentModallyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentModallyController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				88DCCB3F1E2F53540011449F /* Assets.xcassets */,
 				88DCCB411E2F53540011449F /* LaunchScreen.storyboard */,
 				88DCCB441E2F53540011449F /* Info.plist */,
+				88DCCB661E2F5C990011449F /* CollectionViewController.swift */,
+				88DCCB681E2F5FFA0011449F /* PresentModallyController.swift */,
 			);
 			path = MultipleMVCAndSegueDemo;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88DCCB691E2F5FFA0011449F /* PresentModallyController.swift in Sources */,
+				88DCCB671E2F5C990011449F /* CollectionViewController.swift in Sources */,
 				88DCCB3B1E2F53540011449F /* ViewController.swift in Sources */,
 				88DCCB391E2F53540011449F /* AppDelegate.swift in Sources */,
 			);
